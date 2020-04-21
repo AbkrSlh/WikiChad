@@ -1,0 +1,17 @@
+body {
+	text-align: center;
+	background-color: #111111;
+}
+
+
+
+.container {
+	height: 100vh;
+	width: 100vw;
+}
+
+header {
+	/*margin: 20em, auto, 5em;*/
+	color: #555555;
+
+}

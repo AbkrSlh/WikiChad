@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Online eBooks store EPUB & PDF - Osebooks.com</title>
+    <link rel="shortcut icon" href="/template/img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/template/img/apple-touch-icon.png">
+
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="/template/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/template/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/template/vendor/animate/animate.min.css">
+    <link rel="stylesheet" href="/template/vendor/simple-line-icons/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="/template/vendor/owl.carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/template/vendor/owl.carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/template/vendor/magnific-popup/magnific-popup.min.css">
+
+    <link rel="stylesheet" href="/template/css/theme.css">
+    <link rel="stylesheet" href="/template/css/theme-elements.css">
+    <link rel="stylesheet" href="/template/css/theme-blog.css">
+    <link rel="stylesheet" href="/template/css/theme-shop.css">
+
+    <link rel="stylesheet" href="/template/vendor/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="/template/vendor/rs-plugin/css/layers.css">
+    <link rel="stylesheet" href="/template/vendor/rs-plugin/css/navigation.css">
+
+    <link rel="stylesheet" href="/template/css/skins/skin-shop-5.css">
+    <link rel="stylesheet" href="/template/css/demos/demo-shop-5.css">
+    <link rel="stylesheet" href="/template/css/custom.css">
+    <script src="/template/vendor/modernizr/modernizr.min.js"></script>
+</head>
+<body>
+<div class="body">
+    <header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyStartAt': 155, 'stickySetTop': '-155px', 'stickyChangeLogo': false}">
+        <div class="header-body">
+            <div class="header-container container">
+                <div class="header-row">
+                    <div class="header-column">
+                        <div class="header-logo">
+                            <a href="/">
+                                <img width="111" height="51" src="/template/images/logo.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-column">
+                        <div class="row">
+                            <div class="cart-area">
+                                <div class="custom-block">
+                                    <i class="fa fa-phone"></i>
+                                    <span>+44 (203) 318-5980</span>
+                                    <span class="split"></span>
+                                    <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f794989983969483b79884929598989c84d994989a">[email&#160;protected]</a></span>
+                                </div>
+
+                                <div class="cart-dropdown">
+                                    <a href="/cart/" class="cart-dropdown-icon">
+                                        <i class="minicart-icon"></i>
+										<span class="cart-info">
+											<span class="cart-qty">0</span>
+											<span class="cart-text">books</span>
+										</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="header-search">
+                                <a href="#" class="search-toggle"><i class="fa fa-search"></i></a>
+                                <form action="/search/" method="get">
+                                    <div class="header-search-wrapper">
+                                        <input type="text" class="form-control" name="s" id="q" placeholder="Search..." value="" required>
+                                        <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <a href="#" class="mmenu-toggle-btn" title="Toggle menu">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-container header-nav">
+                <div class="container">
+                    <div class="header-nav-main">
+                        <nav>
+                            <ul class="nav nav-pills" id="mainNav">
+                                <li>
+                                    <a href="/">Home</a>
+                                </li>
+                                <li>
+                                    <a href="/shop/">Shop</a>
+                                </li>
+                                <li class="dropdown dropdown-mega">
+                                    <a href="/shop/" class="dropdown-toggle">
+                                        Categories
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="dropdown-mega-content">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <div class="widget widget_nav_menu">
+                                                                    <ul class="dropdown-mega-sub-nav">
+                                                                        <li><a href='/category/12'>Biology</a></li>
+																		<li><a href='/category/49'>Cooking</a></li>
+																		<li><a href='/category/151'>Diseases: Internal Medicine</a></li>
+																		<li><a href='/category/147'>Medicine</a></li>
+																		<li><a href='/category/113'>Mathematics</a></li>
+																		<li><a href='/category/198'>Psychology</a></li>
+																		<li><a href='/category/300'>Organic Chemistry</a></li>
+																		<li><a href='/category/161'>Clinical Medicine</a></li>
+																		<li><a href='/category/183'>Education</a></li>
+																		<li><a href='/category/18'>Biophysics</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <div class="widget widget_nav_menu">
+                                                                    <ul class="dropdown-mega-sub-nav">
+                                                                        <li><a href='/category/188'>Encyclopedia</a></li>
+																		<li><a href='/category/19'>Biochemistry</a></li>
+																		<li><a href='/category/20'>Biochemistry: enologist</a></li>
+																		<li><a href='/category/29'>Plants: Botany</a></li>
+																		<li><a href='/category/26'>Microbiology</a></li>
+																		<li><a href='/category/23'>Zoology</a></li>
+																		<li><a href='/category/297'>Analytical Chemistry</a></li>
+																		<li><a href='/category/27'>Molecular</a></li>
+																		<li><a href='/category/266'>Astronomy: Astrophysics</a></li>
+																		<li><a href='/category/264'>Physics</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <div class="widget widget_nav_menu">
+                                                                    <ul class="dropdown-mega-sub-nav">
+                                                                        <li><a href='/category/296'>Chemistry</a></li>
+																		<li><a href='/category/303'>Physical Chemistry</a></li>
+																		<li><a href='/category/181'>Scientific-popular</a></li>
+																		<li><a href='/category/120'>Computational Mathematics</a></li>
+																		<li><a href='/category/156'>immunology</a></li>
+																		<li><a href='/category/22'>Genetics</a></li>
+																		<li><a href='/category/148'>Anatomy and physiology</a></li>
+																		<li><a href='/category/173'>Pharmacology</a></li>
+																		<li><a href='/category/99'>Networking</a></li>
+																		<li><a href='/category/318'>Comparative Studies</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <div class="widget widget_nav_menu">
+                                                                    <ul class="dropdown-mega-sub-nav">
+                                                                        <li><a href='/category/172'>Therapy</a></li>
+																		<li><a href='/category/324'>other</a></li>
+																		<li><a href='/category/15'>Anthropology: Evolution</a></li>
+																		<li><a href='/category/269'>Quantum Physics</a></li>
+																		<li><a href='/category/250'>Electronics</a></li>
+																		<li><a href='/category/299'>Inorganic Chemistry</a></li>
+																		<li><a href='/category/280'>Spectroscopy</a></li>
+																		<li><a href='/category/287'>Electricity and Magnetism</a></li>
+																		<li><a href='/category/68'>Memoirs, Biographies</a></li>
+																		<li><a href='/category/6'>Management</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="/faq/">FAQ</a></li>
+                                <li class="dropdown">
+                                    <a href="/about/" class="dropdown-toggle">About us </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/about/">Who We Are</a></li>
+                                        <li><a href="/refunds/">Refund Policy</a></li>
+                                        <li><a href="/terms/">Terms of Service</a></li>
+                                        <li><a href="/dmca/">DMCA</a></li>
+                                    </ul>
+                                </li>
+                                <li class="pull-right"><a href="/contact/">Contact Us</a></li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-nav">
+        <div class="mobile-nav-wrapper">
+            <ul class="mobile-side-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/shop/">Shop</a></li>
+                <li><a href="/faq/">FAQ</a></li>
+                <li>
+                    <span class="mmenu-toggle"></span>
+                    <a href="/about/">About us</a>
+                    <ul>
+                        <li><a href="/refunds/">Refund Policy</a></li>
+                        <li><a href="/terms/">Terms of Service</a></li>
+                        <li><a href="/dmca/">DMCA</a></li>
+                    </ul>
+                </li>
+                <li><a href="/contact/">Contact Us</a></li>
+                            </ul>
+        </div>
+    </div>
+
+    <div id="mobile-menu-overlay">
+
+    </div>
+
+    <div role="main" class="main">
+        <div class="container mb-xs">
+            <h2 class="slider-title">
+                <span class="inline-title">New books</span>
+                <span class="line"></span>
+            </h2>
+
+            <div class="owl-carousel owl-theme manual new-products-carousel hide-addtolinks">
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/ec5cc6b7d68efbc4bbf0f675a1c4d5fa" class="product-image">
+                                <img src="https://osebooks.com/covers/22000/c1c56209279ebcf4891b1f79f37dbb07-d.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/ec5cc6b7d68efbc4bbf0f675a1c4d5fa">Core J2EE Patterns</a></h2>
+                            <h2 class="product-name"><a href="/book/ec5cc6b7d68efbc4bbf0f675a1c4d5fa">Deepak Alur, John Crupi, Dan Malks</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$8.38</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/bd7b8f60e65334708882e409cdb4e7fe" class="product-image">
+                                <img src="https://osebooks.com/covers/22000/663115578eded1176fff8f5a58237d00-d.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/bd7b8f60e65334708882e409cdb4e7fe">ESD In Silicon Integrated Circuits</a></h2>
+                            <h2 class="product-name"><a href="/book/bd7b8f60e65334708882e409cdb4e7fe">E. Ajith Amerasekera, Charvaka Duvvury</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$29.44</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/daa62d561154a43444b7b15b9f0a539e" class="product-image">
+                                <img src="https://osebooks.com/covers/22000/c52aefefe8100882be21ebf0e3ca41f6-d.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/daa62d561154a43444b7b15b9f0a539e">Mastering Enterprise JavaBeans</a></h2>
+                            <h2 class="product-name"><a href="/book/daa62d561154a43444b7b15b9f0a539e">Ed Roman, Scott Ambler, Tyler Jewell, Floyd Marinescu</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$8.36</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/d5ba7329e9ebd78b86a0ed547511403d" class="product-image">
+                                <img src="https://osebooks.com/covers/22000/084ba48e4b7e35f00459434f00c29d88-d.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/d5ba7329e9ebd78b86a0ed547511403d">Shale Shaker and Drilling Fluids Systems</a></h2>
+                            <h2 class="product-name"><a href="/book/d5ba7329e9ebd78b86a0ed547511403d">American Assoc. of Drilling Engineers</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$42.39</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/e400ea8408fb355ef26e53dfb3fb085e" class="product-image">
+                                <img src="https://osebooks.com/covers/22000/0100d974748e2af0fba137d1c288462e-d.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/e400ea8408fb355ef26e53dfb3fb085e">XML problem, design, solution</a></h2>
+                            <h2 class="product-name"><a href="/book/e400ea8408fb355ef26e53dfb3fb085e">Mitch Amiano, Conrad D'Cruz, Kay Ethier, Michael D. Thomas</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$6.31</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/feec1e94cfa28c986982d936fb5bf588" class="product-image">
+                                <img src="https://osebooks.com/covers/22000/a7d4cbd834d94c0e349d249a0e845be9-d.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/feec1e94cfa28c986982d936fb5bf588">Encyclopedia of the Neurological Sciences</a></h2>
+                            <h2 class="product-name"><a href="/book/feec1e94cfa28c986982d936fb5bf588">Michael Aminoff, Robert B. Daroff, Michael J. Aminoff MD  DSc  FRCP, Robert B. Daroff MD</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$193.18</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/d8064a597ac4f085103c1d5b1c01b7bb" class="product-image">
+                                <img src="https://osebooks.com/covers/22000/9efba90af92a21fab2db79402f53d8a0.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/d8064a597ac4f085103c1d5b1c01b7bb">Mecanique classique II</a></h2>
+                            <h2 class="product-name"><a href="/book/d8064a597ac4f085103c1d5b1c01b7bb">Amiot P., Marleau L.</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$5.63</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/514dc349dd7fb9cfe5ea326771d09ede" class="product-image">
+                                <img src="https://osebooks.com/covers/22000/3da71e60daa2c1a8f58318d35f8de006.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/514dc349dd7fb9cfe5ea326771d09ede">Check Point Next Generation Security Administration</a></h2>
+                            <h2 class="product-name"><a href="/book/514dc349dd7fb9cfe5ea326771d09ede">Syngress</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$7.94</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/5884b2b46b103c4105e2fb2ac0351dbb" class="product-image">
+                                <img src="https://osebooks.com/covers/22000/b9138676002bef1ad60e8e0c3571c61b.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/5884b2b46b103c4105e2fb2ac0351dbb">11 Steps To Solving Any Problem</a></h2>
+                            <h2 class="product-name"><a href="/book/5884b2b46b103c4105e2fb2ac0351dbb">Anastasi M.</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$4.62</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/8c78d97fe946d4edee95cb2f65b30089" class="product-image">
+                                <img src="https://osebooks.com/covers/22000/9a574dec96cdb1148049dd1ca8e42f95-d.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/8c78d97fe946d4edee95cb2f65b30089">The Past and Future of Information Systems</a></h2>
+                            <h2 class="product-name"><a href="/book/8c78d97fe946d4edee95cb2f65b30089">Kim Viborg Andersen, Morten Thanning Vendelo</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$25.06</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/6295e56a9900560e2c6ab8ec20a26ed5" class="product-image">
+                                <img src="https://osebooks.com/covers/22000/439e93655383d918e4098dfd67d7d92f-d.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/6295e56a9900560e2c6ab8ec20a26ed5">Flavonoids: Chemistry, Biochemistry and Applications</a></h2>
+                            <h2 class="product-name"><a href="/book/6295e56a9900560e2c6ab8ec20a26ed5">Oyvind M. Andersen, Kenneth R. Markham</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$4.49</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/17e15e30ba92b70fcce5d659757b4812" class="product-image">
+                                <img src="https://osebooks.com/covers/22000/87243003ac38cc21f2c4da9963e1d7a3.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/17e15e30ba92b70fcce5d659757b4812">Intraday periodicity and volatility persistence in financial markets</a></h2>
+                            <h2 class="product-name"><a href="/book/17e15e30ba92b70fcce5d659757b4812">Andersen T.G., Bollerslev T.</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$8.54</span>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+
+        <div class="homepage-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <i class="fa fa-truck bar-icon"></i>
+                        <div class="bar-textarea">
+                            <h3>INSTANT SHIPPING</h3>
+                            <p>Receive your book immediately after paying.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa fa-dollar bar-icon"></i>
+                        <div class="bar-textarea">
+                            <h3>MONEY BACK GUARANTEE</h3>
+                            <p>100% money back guarantee.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa fa-support bar-icon"></i>
+                        <div class="bar-textarea">
+                            <h3>ONLINE SUPPORT</h3>
+                            <p>Friendly and professional support.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mb-lg">
+            <h2 class="slider-title">
+                <span class="inline-title">Featured books</span>
+                <span class="line"></span>
+            </h2>
+
+            <div class="owl-carousel owl-theme manual featured-products-carousel">
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/595e433023f92d08b87f3a267373876e" class="product-image">
+                                <img src="https://osebooks.com/covers/25000/3fde6a62afcffe560f728bfd7b7dc111-d.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/595e433023f92d08b87f3a267373876e">Outsourcing America: what's behind our national crisis and how we can reclaim American jobs</a></h2>
+                            <h2 class="product-name"><a href="/book/595e433023f92d08b87f3a267373876e">Ron Hira, Anil Hira</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$ 9.49</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/85c8ae8cf857ca3f52df6984ba34b47d" class="product-image">
+                                <img src="https://osebooks.com/covers/25000/e0c8bb0a1a6a165af734e1601b02cb7b-d.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/85c8ae8cf857ca3f52df6984ba34b47d">Job search and career checklists: 101 proven time-saving checklists to organize and plan your career search</a></h2>
+                            <h2 class="product-name"><a href="/book/85c8ae8cf857ca3f52df6984ba34b47d">Arlene S. Hirsch</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$ 5.69</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/5e8facbed9bb72bb5e3783213b2cbecf" class="product-image">
+                                <img src="https://osebooks.com/covers/25000/50ebeee850bb7962166d96c5f902ea13-d.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/5e8facbed9bb72bb5e3783213b2cbecf">Pro Tools 7 Session Secrets: Professional Recipes for High-Octane Results</a></h2>
+                            <h2 class="product-name"><a href="/book/5e8facbed9bb72bb5e3783213b2cbecf">Scott Hirsch, Steve Heithecker</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$ 7.26</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/c5e9c9a73bd1a5cec712a9cf661a9261" class="product-image">
+                                <img src="https://osebooks.com/covers/25000/b3875179d45cb111c74aaadaf2c590d6-d.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/c5e9c9a73bd1a5cec712a9cf661a9261">Java NIO</a></h2>
+                            <h2 class="product-name"><a href="/book/c5e9c9a73bd1a5cec712a9cf661a9261">Ron Hitchens</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$ 5.13</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/347c7efdc7b08b38bf4df802f276daf3" class="product-image">
+                                <img src="https://osebooks.com/covers/25000/084adf239859e7609460e88756e70ddf.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/347c7efdc7b08b38bf4df802f276daf3">The Innovation Paradigm</a></h2>
+                            <h2 class="product-name"><a href="/book/347c7efdc7b08b38bf4df802f276daf3">Hitcher W.</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$ 27.69</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/125d2fb0057faaff9c2f18f1fab328af" class="product-image">
+                                <img src="https://osebooks.com/covers/25000/a9caba4a40e6432117034f4727af8f42-d.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/125d2fb0057faaff9c2f18f1fab328af">The Extreme Searcher's Internet Handbook: A Guide for the Serious Searcher</a></h2>
+                            <h2 class="product-name"><a href="/book/125d2fb0057faaff9c2f18f1fab328af">Randolph Hock, Gary Price</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$ 5.11</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/de1b42c63421e4b3dd407d8ff3c28971" class="product-image">
+                                <img src="https://osebooks.com/covers/25000/d111298c1dc2d68d3dccfae33f93b249-d.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/de1b42c63421e4b3dd407d8ff3c28971">Lightweight Electric/Hybrid Vehicle Design</a></h2>
+                            <h2 class="product-name"><a href="/book/de1b42c63421e4b3dd407d8ff3c28971">John Fenton, Ron Hodkinson</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$ 10.94</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/7202c888f82bc8bb825d928471fc05ff" class="product-image">
+                                <img src="https://osebooks.com/covers/25000/04e421f828eb613ab9dd36eb7b72fb4d-d.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/7202c888f82bc8bb825d928471fc05ff">Digital Audio Broadcasting: Principles and Applications of Digital Radio</a></h2>
+                            <h2 class="product-name"><a href="/book/7202c888f82bc8bb825d928471fc05ff">Wolfgang Hoeg, Thomas Lauterbach</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$ 6.93</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/2866425c4e70db87cb0c369e2ea15545" class="product-image">
+                                <img src="https://osebooks.com/covers/25000/7101dfc0e7b7a18ef239a430b464f15b-d.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/2866425c4e70db87cb0c369e2ea15545">Digital Audio Broadcasting: Principles and Applications</a></h2>
+                            <h2 class="product-name"><a href="/book/2866425c4e70db87cb0c369e2ea15545">Wolfgang Hoeg, Thomas Lauterbach</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$ 12.38</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/c6f99d0e5aa328033597b6ba0f5871a7" class="product-image">
+                                <img src="https://osebooks.com/covers/25000/5e74bfd1981ad4cec5bac75a5d0388ca.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/c6f99d0e5aa328033597b6ba0f5871a7">Testing Lifting Bodies at Edwards</a></h2>
+                            <h2 class="product-name"><a href="/book/c6f99d0e5aa328033597b6ba0f5871a7">Hoey R.G.</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$ 8.23</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/7a0c4674360dbe78c093c8ed365b82e6" class="product-image">
+                                <img src="https://osebooks.com/covers/25000/2065e75c10d0e3f255a1ef8e9975d3f8.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/7a0c4674360dbe78c093c8ed365b82e6">HIV medicine</a></h2>
+                            <h2 class="product-name"><a href="/book/7a0c4674360dbe78c093c8ed365b82e6">Hoffmann C., Kamps B.S.</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$ 5.58</span>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="product">
+                        <figure class="product-image-area">
+                            <a href="/book/1b53df2e14f408cae44ff0cc96ed7417" class="product-image">
+                                <img src="https://osebooks.com/covers/25000/3dd364e2f2869cb059e4c094ce2a917a-d.jpg">
+                            </a>
+                        </figure>
+                        <div class="product-details-area">
+                            <h2 class="product-name bolder"><a href="/book/1b53df2e14f408cae44ff0cc96ed7417">Transgenic Mouse: Methods and Protocols</a></h2>
+                            <h2 class="product-name"><a href="/book/1b53df2e14f408cae44ff0cc96ed7417">Marten H. Hofker (auth.), Marten H. Hofker, Jan van Deursen (eds.)</a></h2>
+                            <div class="product-ratings">
+                                <div class="ratings-box">
+                                    <div class="rating"></div>
+                                </div>
+                            </div>
+                            <div class="product-price-box">
+                                <span class="product-price">$ 6.52</span>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+
+        <section class="explore-section parallax section section-text-light section-parallax section-center section-overlay-opacity section-overlay-opacity-scale-8 mt-none">
+            <div class="container">
+                <div class="owl-carousel owl-theme nav-bottom rounded-nav" data-plugin-options="{'items': 1, 'loop': false}">
+                    <div>
+                        <h2>Explore <strong>OseBooks</strong></h2>
+                        <p>Premium selection, unbeatable prices...</p>
+                        <a href="/shop/" style="font-size: 23px">Shop now ></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="customer-support-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="feature-box feature-box-style-3">
+                            <div class="feature-box-icon">
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4>Customer Support</h4>
+                                <h5>YOU WON'T BE ALONE</h5>
+                                <p>We really care about you and your experience using our shop. We will resolve whatever issues you may encounter.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="feature-box feature-box-style-3">
+                            <div class="feature-box-icon">
+                                <i class="fa fa-mail-reply"></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4>Satisfaction guaranteed</h4>
+                                <h5>HAPPY OR REFUNDED</h5>
+                                <p>In case the book you've bought doesn't meet your expectations, we'll refund your purchase in full. Just contact our award-winning support team.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="feature-box feature-box-style-3">
+                            <div class="feature-box-icon">
+                                <i class="fa fa-paper-plane"></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4>Easy process</h4>
+                                <h5>KEEPING IT SIMPLE</h5>
+                                <p>We focus on what matters the most - having the best selection and prices that are hard to beat. This is the book shop you've been looking for.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-ribbon">
+                    <span>Get in Touch</span>
+                </div>
+
+                <div class="col-md-3">
+                    <h4>Info</h4>
+                    <ul class="links">
+
+                        <li>
+                            <i class="fa fa-caret-right text-color-primary"></i>
+                            <a href="/about/">About Us</a>
+                        </li>
+
+                        <li>
+                            <i class="fa fa-caret-right text-color-primary"></i>
+                            <a href="/contact/">Contact Us</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-caret-right text-color-primary"></i>
+                            <a href="/privacy/">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-caret-right text-color-primary"></i>
+                            <a href="/terms/">Terms of Service</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-caret-right text-color-primary"></i>
+                            <a href="/shop/">Shop</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-caret-right text-color-primary"></i>
+                            <a href="/dmca/">DMCA</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="contact-details">
+
+                        <h4>Contact Information</h4>
+                        <ul class="contact">
+                            <li><p><i class="fa fa-map-marker"></i> <strong>Address:</strong><br> Strada Vlaicu Pircalab 18, Kishinev, MO</p></li>
+                            <li><p><i class="fa fa-phone"></i> <strong>Phone:</strong><br> +44 (203) 318-5980</p></li>
+                            <li><p><i class="fa fa-envelope-o"></i> <strong>Email:</strong><br> <a href="/cdn-cgi/l/email-protection#8cefe3e2f8edeff8cce3ffe9eee3e3e7ffa2efe3e1"><span class="__cf_email__"><span class="__cf_email__" data-cfemail="97f4f8f9e3f6f4e3d7f8e4f2f5f8f8fce4b9f4f8fa">[email&#160;protected]</span></span></a></p></li>
+                            <li><p><i class="fa fa-clock-o"></i> <strong>Working Days/Hours:</strong><br> Mon - Fri / 9:00AM - 6:00PM (EST)</p></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4>Why Us</h4>
+                    <ul class="features">
+                        <li>
+                            <i class="fa fa-check text-color-primary"></i>
+                            Best selection
+                        </li>
+                        <li>
+                            <i class="fa fa-check text-color-primary"></i>
+                            Best prices
+                        </li>
+                        <li>
+                            <i class="fa fa-check text-color-primary"></i>
+                            Great support
+                        </li>
+                        <li>
+                            <i class="fa fa-check text-color-primary"></i>
+                            Fast delivery
+                        </li>
+                        <li>
+                            <i class="fa fa-check text-color-primary"></i>
+                            Powerful search engine
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="newsletter">
+                        <h4>Be the First to Know</h4>
+                        <p class="newsletter-info">Get all the latest information on Events,<br> Sales and Offers. Sign up for newsletter today.</p>
+
+                        <div class="alert alert-success hidden" id="newsletterSuccess">
+                            <strong>Success!</strong> You've been added to our email list.
+                        </div>
+
+                        <div class="alert alert-danger hidden" id="newsletterError"></div>
+
+                        <p>Enter your e-mail Address:</p>
+                        <form id="newsletterForm" action="#" method="POST">
+                            <div class="input-group">
+                                <input class="form-control" placeholder="Email Address" name="email" id="newsletterEmail" type="email">
+								<span class="input-group-btn">
+									<button class="btn btn-primary" type="submit">Submit</button>
+								</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <a href="/" class="logo">
+                    <img class="img-responsive" src="/template/images/logo.png" style="margin-top: -14px;">
+                </a>
+                <img alt="Payments" src="/template/img/demos/shop/payments.png" class="footer-payment">
+                <p class="copyright-text">© Copyright 2018 OseBooks.com. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/d07b1474/cloudflare-static/email-decode.min.js"></script><script src="/template/vendor/jquery/jquery.min.js"></script>
+<script src="/template/vendor/jquery.appear/jquery.appear.min.js"></script>
+<script src="/template/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="/template/vendor/jquery-cookie/jquery-cookie.min.js"></script>
+<script src="/template/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="/template/vendor/common/common.min.js"></script>
+<script src="/template/vendor/jquery.validation/jquery.validation.min.js"></script>
+<script src="/template/vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
+<script src="/template/vendor/jquery.gmap/jquery.gmap.min.js"></script>
+<script src="/template/vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+<script src="/template/vendor/isotope/jquery.isotope.min.js"></script>
+<script src="/template/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="/template/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="/template/vendor/vide/vide.min.js"></script>
+
+<script src="/template/js/theme.js"></script>
+<script src="/template/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+<script src="/template/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script src="/template/js/views/view.contact.js"></script>
+<script src="/template/js/demos/demo-shop-5.js"></script>
+<script src="/template/js/theme.init.js"></script>
+
+</body>
+</html>
